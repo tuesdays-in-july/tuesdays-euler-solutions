@@ -4,20 +4,13 @@
 mult_three = 0
 mult_five = 0
 net_sum = 0
-#for ch in range(0,10):
 for ch in range(0,1000):
-    mult_three = (ch/3)                                                #just does 3s
-    mult_five = (ch/5)                                                    #now have 5s
-    if (mult_three == int(mult_three)) or (mult_five == int(mult_five)):    #fingers crossed
-      #  print(ch)
+    mult_three = (ch/3) 
+    mult_five = (ch/5)
+    if (mult_three == int(mult_three)) or (mult_five == int(mult_five)):
         net_sum = net_sum + ch
     else:
         net_sum = net_sum
         mult_three = 0
         mult_five = 0
-print("The sum of all multiples of 3 or 5 below 1000 is...")
 print(int(net_sum))
-
-#YIPPEE
-#going through to clean up final results, fixing range, renaming variables, and getting a cleaner final statement...
-#and we've got a programmed solution for Project Euler's first problem :3
