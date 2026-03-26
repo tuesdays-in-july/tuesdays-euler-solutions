@@ -1,0 +1,13 @@
+pen and paper'd: 232792560
+
+prime factorization of 2520 yields 2*2*2*3*3*5*7
+
+the way i think of it is like this:
+starting at two, because anything times one is irrelevant, make a set of prime factors. for every whole number after two, add its prime factors to the set UNLESS you can make the number from any combination of numbers already in the set. for example, six wouldn't add any numbers, but nine would add a 3. repeat until ten, so [2,10]. 
+
+repeat this system for [2,20]. i found it easier to work in reverse, starting at 20 and working downwards. 
+
+this yields 2*2*2*2*3*3*5*7, which multiplies to 232,792,560
+
+this number is significantly bigger than [2,10] because of the number is large(er) primes less than twenty.
+
